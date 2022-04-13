@@ -1,0 +1,117 @@
+@media screen and (max-width: 990px) {
+    .h__i--text {
+        margin-top: 0px;
+    }
+    .h__i--text p {
+        margin-top: 20px;
+    }
+    .btn--head {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        height: 1000px;
+    }
+    .header__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .h__i--text {
+        margin: 20px auto 80px;
+        width: 450px;
+    }
+    .h__i--img {
+        margin: 0px auto;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .more {
+        width: 80%;
+    }
+    .more {
+        padding: 60px 0px;
+    }
+    .more .btn {
+        padding: 15px 50px;
+        margin-right: 0px;
+    }
+    .chapter {
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 80%;
+        margin: auto;
+        height: 600px;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .chapter__inner {
+        padding: 20px;
+        margin: auto;
+        width: 85%;
+    }
+    .chapter__img {
+        margin: auto;
+        padding: 20px;
+        grid-row-start: 1;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .footer {
+        height: 800px;
+    }
+    .footer__middle {
+        flex-direction: column;
+        height: 520px;
+    }
+    .part--1 {
+        width: 80%;
+    }
+    .part--2 {
+        margin-top: -90px;
+        grid-template-columns: 100%;
+        grid-row-gap: 10px;
+    }
+    .part--3 {
+        text-align: center;
+        margin: 0px auto 40px;
+        width: 70%;
+    }
+    .sm__logo {
+        margin: 0px 5px;
+    }
+    .part--4 {
+        text-align: center;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .chapter__img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .h__i--text {
+        width: 85%;
+    }
+    .h__i--img {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .logo {
+        height: 28px;
+    }
+    .btn--header {
+        padding: 15px 30px;
+    }
+}
